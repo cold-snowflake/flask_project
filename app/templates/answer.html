@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <div>
+    <h2>Magic 8-ball Game Written in Python</h2>
+    <img src="static/img/game_one.jpg" width="900px" height="600px">
+    <h1>Hello {{ name }}</h1>
+
+    <div><h2>{{ answer }}</h2></div>
+    <a class="continue" href="{{ url_for('game_one') }}">Continue the game</a>
+   
+{% endblock %}

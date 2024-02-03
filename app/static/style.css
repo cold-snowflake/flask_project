@@ -1,0 +1,48 @@
+body{
+    background-image: url("img/main.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgb(223, 54, 144);
+    font-size: large;
+    font-weight: 1000;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    color: rgb(227, 95, 121);
+    font-size: large;
+    font-weight: 100;
+    font-size: 70px;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+a{
+    font-size: 40px;
+    color: rgb(28, 190, 136);
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    color: aliceblue;
+    background-color: rgb(28, 190, 136);
+    border-radius: 4px;
+}
+form {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em;
+    background: url(static/img/game_one.jpg);
+    text-align: center;
+    text-shadow: 3px;
+    border-radius: 4px;
+  
+    /* we create our grid */
+    display: grid;
+    grid-template-rows: 5em 2em 5em 2em 3em;
+  }
