@@ -1,0 +1,78 @@
+body{
+    background-image: url("img/game_two/main.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color:burlywood;
+    font-size: large;
+    font-weight: 1000;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    color: rgb(227, 95, 121);
+    font-size: large;
+    font-weight: 100;
+    font-size: 70px;
+}
+h3{
+    color:blanchedalmond;
+    font-size: 50px;
+}
+h3:hover{
+    background-color: blanchedalmond;
+    color: cadetblue;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+a{
+    font-size: 60px;
+    color: rgb(63, 28, 47);
+    border-radius: 4px;;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    color: aliceblue;
+    background-color: rgb(63, 28, 47);
+    border-radius: 4px;
+}
+form {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em;
+
+    text-align: center;
+    text-shadow: 3px;
+    border-radius: 4px;
+  
+    /* we create our grid */
+    display: grid;
+    grid-template-rows: 5em 2em 5em 2em 3em;
+  }
+  .submit{
+    font-size: 100px;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  .submit:hover{
+    background-color:  cadetblue;
+  }
+  .result{
+    color: rgb(32, 156, 160);
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+  }
+  .continue{
+    background-color: antiquewhite;
+    color: rgb(32, 156, 160);
+  }
