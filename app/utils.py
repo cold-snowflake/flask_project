@@ -7,5 +7,11 @@ answers = ['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – de
             'Dont count on it', 'My reply is no', 'My sources say no', 'Outlook not so good',
             'Very doubtful']
 
-def get_answer(answers):
-    return(answers[random.randint(0, len(answers)-1)])
+
+# adding function for game two
+
+houses = ['Gryffindor', 'Ravenclaw', 'Hufflepuff', 'Slytherin']
+
+
+def get_answer(value):
+    return(value[random.randint(0, len(value)-1)])
